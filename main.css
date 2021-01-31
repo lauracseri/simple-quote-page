@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+body {
+  background: url(assets/freedom.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.quote {
+  width: 70%;
+  text-align: center;
+}
+blockquote {
+  text-transform: uppercase;
+  font-family: Lato;
+  font-size: 200%;
+  line-height: 1.5;
+  margin-top: -180px; 
+  text-shadow: 2px 2px 5px gray;
+  letter-spacing: 3px;
+  color: hsl(0, 5%, 25%, .9);
+}
+figcaption {
+  font-style: italic;
+  color: black;
+}
